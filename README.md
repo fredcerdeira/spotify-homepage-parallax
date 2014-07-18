@@ -1,4 +1,4 @@
-Spotyfy Homepage parallax effect
+Spotify Homepage parallax effect
 ==========
 
 [Demo](http://fredcerdeira.github.io/spotify-homepage) »
