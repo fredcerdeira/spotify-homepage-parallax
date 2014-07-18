@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>SPOTIFY PARALAX</title>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <header class="main-header">
+        <nav class="main-nav" role="navigation">
+            <a class="logo" href="/" title="Go to Spotify Home">
+                <img src="https://d2c87l0yth4zbw.cloudfront.net/i/_global/logo.png" alt="Spotify">
+            </a>
+        </nav>
+    </header>
+    <main class="main-content">
+        <section class="static-holder first">
+           <img src="images/bgs/lifestyle-hero-lg.jpg" alt="lifestyle">
+            <article>
+                <h1>Music for everyone.</h1>
+                    <p>Mimic Spotify homepage. All images are from Spotify.</p>
+            </article>
+        </section>
+        <div class="media-holder" data-image="images/bgs/lifestyle-all-music-lg.jpg" data-width="1600" data-height="1069">
+        </div>
+        <section class="static-holder">
+            <p>Text here</p>
+        </section>
+        <div class="media-holder" data-image="images/bgs/lifestyle-hero-lg.jpg" data-width="1600" data-height="1024">
+            <h1 class="teste">teste</h1>
+        </div>
+        <section class="static-holder">
+            <p>Text here</p>
+        </section>
+    </main>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="scripts/libs/jquery.imageScroll.js"></script>
+    <script>
+        $('.media-holder').imageScroll({container: "main"});
+    </script>
+
+    
+</body>
+</html>

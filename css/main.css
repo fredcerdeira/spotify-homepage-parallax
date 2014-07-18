@@ -1,0 +1,136 @@
+
+/* GLOBAL -------------------------------- */
+
+*, 
+*:after, 
+*:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body,
+html, main {
+    font: 62.5% Georgia, serif;
+    color: #3d3536;
+    background-color: #fff;
+    height: 100%;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.main-content {
+    width: 100%;
+    z-index: 1;
+    max-width: 1980px;
+    margin: auto;
+}
+
+.content-wrap {
+    width: 90%;
+    max-width: 750px;
+    margin: 0 auto;
+}
+.content-wrap::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+p {
+    font: 400 1em/1 'Montserrat', sans-serif;
+}
+
+/* NAVIGATION -------------------------------- */
+.main-header {
+    background-color: #404040;
+    background-color: rgba(0,0,0,0.75);
+    left: 0;
+    position: fixed;
+    text-align: right;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    height: 65px
+}
+
+.main-header:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.main-nav {
+    width: 960px;
+    margin: auto;
+    height: 100%;
+}
+
+.main-nav .logo {
+    float: left;
+    width: 134px;
+    height: 40px;
+    display: block;
+    margin: 0;
+    padding: 12px 0 0 0;
+}
+
+
+/* MAIN CONTENT -------------------------------- */
+
+.media-holder {
+    position: relative;
+    z-index: 1;
+}
+
+
+.static-holder {
+    font-size: 5em;
+    margin: 5% 25%;
+    position: relative;
+}
+
+.static-holder.first {
+    margin: 0;
+    overflow: hidden;
+}
+
+.static-holder.first > img{
+    display: block;
+    width: 100%;
+}
+
+.static-holder.first article {
+    display: block;
+    width: 800px;
+    margin: auto;
+    position: absolute;
+    z-index: 2;
+    top: 15%;
+    left: 50%;
+    margin-left: -400px;
+    color: #fff;
+    text-align: center;
+}
+
+.static-holder.first article h1 {
+    font: 4em/.8 'Montserrat', sans-serif;
+    margin: 0 0 .5em 0;
+}
+
+
+
